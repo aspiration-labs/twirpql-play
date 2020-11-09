@@ -1,0 +1,20 @@
+#
+# files
+#
+*~
+\#*\#
+twirpql-play
+
+#
+# dirs
+#
+
+.idea
+
+# build artifacts we don't commit
+swaggerui-statik
+swaggerui/index.html
+swaggerui/rpc
+tools_module/.go_tools.mk
+tools_module/tools/
+tools_module/vendor/
