@@ -6,21 +6,10 @@ service Service {
     rpc Hello(HelloReq) returns (HelloResp);
 }
 
-service Ping {
-    rpc Pinger(PingReq) returns (PingResp);
-}
-
 message HelloReq {
     string name = 1;
 }
 
 message HelloResp {
-    string text = 1;
-}
-
-message PingReq {
-}
-
-message PingResp {
     string text = 1;
 }
